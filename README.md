@@ -1,4 +1,4 @@
-# location-aware-ember
+# location-aware-ember [![Build Status](https://travis-ci.org/blimmer/location-aware-ember.svg)](https://travis-ci.org/blimmer/location-aware-ember)
 
 This is an example application used for my talk at the [EmberJS Denver Meetup](http://www.meetup.com/Ember-js-Denver/) in May 2015.
 
