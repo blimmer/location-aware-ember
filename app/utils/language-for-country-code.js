@@ -3,6 +3,8 @@
   the assumed language code
 */
 export default function languageForCountryCode(countryCode) {
+  if (!countryCode) { countryCode = 'us'; }
+
   switch(countryCode.toLowerCase()) {
     case 'es':
     case 'mx':

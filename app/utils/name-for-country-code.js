@@ -252,6 +252,8 @@ var isoCountries = {
 };
 
 export default function nameForCountryCode(countryCode) {
+  if (!countryCode) { countryCode = 'us'; }
+
   if (isoCountries.hasOwnProperty(countryCode.toUpperCase())) {
     return isoCountries[countryCode];
   } else {
