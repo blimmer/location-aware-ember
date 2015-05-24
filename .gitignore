@@ -4,6 +4,9 @@
 /dist
 /tmp
 
+# secrets
+.env
+
 # dependencies
 /node_modules
 /bower_components
