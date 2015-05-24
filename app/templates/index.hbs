@@ -1,6 +1,13 @@
-<div class='row'>
-  <h2 class='text-center' id="greeting">{{t 'home.greeting'}}</h2>
-</div>
-<div class='row'>
-  <h4 class='text-center' id="secondary-greeting">{{t 'home.secondaryGreeting' countryName=countryName}}</h4>
+<div class='index container text-center'>
+  <div class='row'>
+    <h2 id="greeting">{{t 'home.greeting'}}</h2>
+  </div>
+  <div class='row'>
+    <h4 id="secondary-greeting">{{t 'home.secondaryGreeting' countryName=countryName}}</h4>
+  </div>
+  <div class='row language-chooser'>
+    <h6>{{t 'home.chooseLang'}}</h6>
+    <a id='set-en' {{action 'setLanguage' 'en'}}>EN</a>
+    <a id='set-es' {{action 'setLanguage' 'es'}}>ES</a>
+  </div>
 </div>

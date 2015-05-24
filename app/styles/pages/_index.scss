@@ -1,0 +1,12 @@
+.index {
+  .language-chooser {
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 200px;
+    background-color: lighten(gray, 40%);
+
+    a:not(:first-of-type) {
+      padding-left: 10px;
+    }
+  }
+}
