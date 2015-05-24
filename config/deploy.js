@@ -16,6 +16,23 @@ module.exports = {
       "type": "s3",
       "accessKeyId": "AKIAIFM7MT2JTIHV6HBA",
       "secretAccessKey": process.env.S3_SECRET_ACCESS_KEY,
+      "bucket": "location-aware-ember",
+      "prefix": "development"
+    }
+  },
+
+  "production": {
+    buildEnv: "production",
+    store: {
+      host: 'ec2-107-22-167-67.compute-1.amazonaws.com',
+      port: 6929,
+      password: process.env.REDIS_PW,
+      database: 0
+    },
+    assets: {
+      "type": "s3",
+      "accessKeyId": "AKIAIFM7MT2JTIHV6HBA",
+      "secretAccessKey": process.env.S3_SECRET_ACCESS_KEY,
       "bucket": "location-aware-ember"
     }
   }
