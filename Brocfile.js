@@ -4,6 +4,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var env = EmberApp.env();
 
 var app = new EmberApp({
+  storeConfigInMeta: false,
   fingerprint: {
     enabled: env === 'production',
     prepend: 'http://location-aware-ember.s3-website-us-west-2.amazonaws.com/',
