@@ -22,7 +22,8 @@ test('has spanish greeting for ES country', function(assert) {
 
   andThen(function() {
 
-    assert.equal($('#title').text(), '¡Hola!');
+    assert.equal($('#greeting').text(), '¡Hola!');
+    assert.equal($('#secondary-greeting').text(), 'Gracias por visitar desde España.');
   });
 });
 
@@ -34,6 +35,7 @@ test('has spanish greeting for MX country', function(assert) {
   andThen(function() {
 
     assert.equal($('#greeting').text(), '¡Hola!');
+    assert.equal($('#secondary-greeting').text(), 'Gracias por visitar desde Mexico.');
   });
 });
 
@@ -44,7 +46,8 @@ test('has english greeting for US country', function(assert) {
 
   andThen(function() {
 
-    assert.equal($('#title').text(), 'Hello!');
+    assert.equal($('#greeting').text(), 'Hello!');
+    assert.equal($('#secondary-greeting').text(), 'Thank you for visiting from United States.');
   });
 });
 
@@ -55,6 +58,7 @@ test('has english greeting for GB country', function(assert) {
 
   andThen(function() {
 
-    assert.equal($('#title').text(), 'Hello!');
+    assert.equal($('#greeting').text(), 'Hello!');
+    assert.equal($('#secondary-greeting').text(), 'Thank you for visiting from United Kingdom.');
   });
 });

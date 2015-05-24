@@ -1,5 +1,6 @@
 export default {
   'home': {
-    'greeting': 'Hello!'
+    'greeting': 'Hello!',
+    'secondaryGreeting': 'Thank you for visiting from {{countryName}}.'
   }
 };
