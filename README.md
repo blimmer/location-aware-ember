@@ -1,7 +1,12 @@
-# Location-aware-ember
+# location-aware-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an example application used for my talk at the [EmberJS Denver Meetup](http://www.meetup.com/Ember-js-Denver/) in May 2015.
+
+## Technology Stack
+* [ember-cli](http://www.ember-cli.com/)
+* [ember-cli-deploy](https://github.com/ember-cli/ember-cli-deploy)
+* [ember-cli-server-variables](https://github.com/blimmer/ember-cli-server-variables)
+* [ember-i18n (v4-alpha)](https://github.com/jamesarosen/ember-i18n)
 
 ## Prerequisites
 
