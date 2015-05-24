@@ -1,6 +1,6 @@
 {
   "name": "location-aware-ember",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A location-aware demo ember application",
   "private": true,
   "directories": {
