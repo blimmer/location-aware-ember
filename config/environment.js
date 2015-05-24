@@ -18,8 +18,17 @@ module.exports = function(environment) {
       // when it is created
     },
 
+    contentSecurityPolicy: {
+      'style-src': "'self' 'unsafe-inline'"
+    },
+
     i18n: {
       defaultLocale: 'en'
+    },
+
+    serverVariables: {
+      tagPrefix: 'var',
+      vars: ['country']
     }
   };
 
@@ -29,6 +38,9 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.serverVariables.defaults = {
+      'country': 'US'
+    };
   }
 
   if (environment === 'test') {
