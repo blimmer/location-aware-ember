@@ -7,6 +7,7 @@ This is an example application used for my talk at the [EmberJS Denver Meetup](h
 * [ember-cli-deploy](https://github.com/ember-cli/ember-cli-deploy)
 * [ember-cli-server-variables](https://github.com/blimmer/ember-cli-server-variables)
 * [ember-i18n (v4-alpha)](https://github.com/jamesarosen/ember-i18n)
+* [location-aware-ember-server](https://github.com/blimmer/location-aware-ember-server)
 
 ## Prerequisites
 
