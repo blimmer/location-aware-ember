@@ -1,8 +1,27 @@
 /* global require, module */
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var env = EmberApp.env();
 
-var app = new EmberApp();
+var app = new EmberApp({
+  fingerprint: {
+    enabled: env === 'production',
+    prepend: '//location-aware-ember.s3-website-us-west-2.amazonaws.com/',
+    extensions: [
+      'js',
+      'css',
+      'png',
+      'jpg',
+      'gif',
+      'map',
+      'eot',
+      'woff',
+      'svg',
+      'ttf',
+      'tte',
+      'mp4']
+  }
+});
 
 // Use `app.import` to add additional libraries to the generated
 // output files.
