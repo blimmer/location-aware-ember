@@ -1,5 +1,4 @@
 /* jshint node: true */
-require('dotenv').load();
 
 module.exports = function(deployTarget) {
   var ENV = {
